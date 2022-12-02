@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import Main from "../templates/Main";
 
-const headeProps = {
+const headerProps = {
   icon: "users",
   title: "Usuários",
   subtitle: "Cadastro de usuários: Incluir, Listar, Alterar e Excluir",
@@ -10,6 +10,6 @@ const headeProps = {
 
 export default class UserCrud extends Component {
   render() {
-    return <main {...headeProps}>Cadastro de Usuário</main>;
+    return <Main {...headerProps}>Cadastro de Usuário</Main>;
   }
 }
